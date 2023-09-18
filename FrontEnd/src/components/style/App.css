@@ -1,0 +1,183 @@
+
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "PT Sans", sans-serif;
+}
+
+.home,
+.course,
+.student,
+.department,
+.services,
+.signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  font-size: 4rem;
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  text-shadow: 4px 4px 4px #fff;
+  text-decoration-color: black;
+}
+
+
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.parent{
+  border: 1px solid black;
+  margin: 1rem;
+  padding: 2rem 2rem;
+  text-align: center;
+}
+
+.child {
+  display: inline-block;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+}
+
+.tablePosition {
+  position: relative;
+  padding: 10px;
+  top: 2cm;
+  left: 1cm;
+}
+
+.buttonPosition {
+  position: relative;
+  padding: 10px;
+  top: 4cm;
+  left: 3cm;
+}
+
+.pageHeader {
+  position: relative;
+  width: 50%;
+  padding: 10px;
+  top: 1cm;
+  left: 3cm;
+  font-size: 2.5rem;
+}
+
+.tableText {
+  background-color: black;
+  text-decoration-color: white;
+  color: #fff;
+}
+
+.home {
+  text-decoration-color: black;
+}
+
+.course {
+  text-decoration-color: black;
+}
+
+.cardMedia {
+  background-image: url(../../images/img1.jpg);
+}
+
+.cardMediaStu {
+  background-image: url(../../images/student-im.jpg);
+}
+
+.cardMediaDept {
+  background-image: url(../../images/classroom.jpg);
+}
+
+.cardMediaTeacher {
+  background-image: url(../../images/teacher.jpg);
+}
+
+.cardMediaAlocation1 {
+  background-image: url(../../images/stu.jpg);
+}
+
+
+.cardMediaAlocation2 {
+  background-image: url(../../images/dept.jpg);
+}
+
+.student {
+  text-decoration-color: black;
+}
+
+.department {
+  text-decoration-color: black;
+}
+
+
+.subject-list-container {
+  margin-top: 20px;
+}
+
+/* Style for the table */
+.subject-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+/* Style for table header */
+.subject-table th {
+  background-color: #007bff;
+  color: white;
+  padding: 8px;
+  text-align: left;
+}
+
+/* Style for table rows */
+.subject-table tr {
+  border-bottom: 1px solid #ddd;
+}
+
+/* Style for table cells */
+.subject-table td {
+  padding: 8px;
+}
+
+/* Style for edit and delete buttons */
+.action-buttons button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.action-buttons button:hover {
+  background-color: #0056b3;
+}
+
+/* Add this CSS to your stylesheet */
+.course-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.course-box {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 300px;
+  background-color: #f9f9f9;
+}
+
+.course-actions {
+  margin-top: 10px;
+}
+
+.course-box button {
+  margin-right: 5px;
+}

@@ -1,0 +1,28 @@
+/* ClassroomManager.css */
+
+.classroom-manager {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .dropdown-box {
+    margin-top: 20px;
+  }
+  
+  .teacher-details-box {
+    margin-top: 20px;
+    background-color: #f7f7f7;
+    width: "-10px";
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .subject-details-box {
+    margin-top: 20px;
+    background-color: #f7f7f7;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  

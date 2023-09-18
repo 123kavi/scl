@@ -1,0 +1,43 @@
+/* AllocateCourse.css */
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .styled-table th,
+  .styled-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #ddd; /* Add borders to cells */
+  }
+  
+  .styled-table th {
+    background-color: #333;
+    color: white;
+  }
+  
+  .styled-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .styled-table tr:hover {
+    background-color: #ddd;
+    transition: 0.3s;
+  }
+  
+  .course-actions button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  .course-actions button:hover {
+    background-color: #555;
+  }
+  

@@ -1,0 +1,121 @@
+input::placeholder {
+    color: #999; 
+    font-style: italic; 
+  }
+  
+  /* Style for the table */
+  .subject-table {
+    width: 20%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+  
+  /* Style for table header */
+  .subject-table th {
+    background-color: #f2f2f2;
+    text-align: left; /* Header text alignment */
+    padding: 10px; /* Header cell padding */
+    border: 1px solid #ddd; /* Header cell border */
+  }
+  
+  /* Style for table rows */
+  .subject-table tr {
+    border-bottom: 1px solid #ddd; /* Add border below each row */
+  }
+  /* App.css */
+
+.create-edit-subject {
+    margin-bottom: 20px; 
+    width: 29%;
+    height: 100%;
+    margin-left: 30px;
+    padding: 10px; /* Add padding for spacing and visual separation */
+    border: 1px solid #ddd; /* Add a border for a box-like appearance */
+    border-radius: 5px; /* Add rounded corners for a better look */
+    background-color: #f2f2f2; /* Add a background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  }
+
+  .create-edit-subject1 {
+    margin-bottom: 20px; 
+    width: 30%;
+    height: 100%;
+    margin-left: 30px;
+    padding: 10px; /* Add padding for spacing and visual separation */
+    border: 1px solid #ddd; /* Add a border for a box-like appearance */
+    border-radius: 5px; /* Add rounded corners for a better look */
+    background-color: #f2f2f2; /* Add a background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  }
+
+
+
+
+
+  .create-edit-subject2 {
+    margin-bottom: -199px; 
+    margin-top: 50px;
+    width: 40%;
+    height: 100%;
+    margin-left: 30px;
+    padding: 10px; /* Add padding for spacing and visual separation */
+    border: 1px solid #ddd; /* Add a border for a box-like appearance */
+    border-radius: 5px; /* Add rounded corners for a better look */
+    background-color: #f2f2f2; /* Add a background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  }
+
+
+
+
+
+
+
+  /* Add this CSS rule to increase the placeholder text size */
+.create-edit-subject input::placeholder {
+    font-size: 1999px; /* Adjust the font size to your preference */
+    height: 100%;
+    color: #999; /* Adjust the color to your preference */
+  }
+  
+  .create-edit-subject h2 {
+    margin-top: 0; /* Remove top margin for the heading */
+  }
+  
+  .subject-table th h1 {
+    color: black;
+  }
+  
+/* Add this CSS rule to change the font color of the text in the table header cells to black */
+.subject-table th {
+    color: black;
+  }
+  
+  .subject-table th h2 {
+    color: black;
+  }
+  
+
+  /* Style for table data cells */
+  .subject-table td {
+    padding: 10px; /* Cell padding */
+    border: 1px solid #ddd; /* Cell border */
+  }
+  
+  /* Style for action buttons */
+  .action-buttons button {
+    background-color: #0c0c0c; /* Button background color */
+    width: '300px';
+    height :"30px";
+    color: #fff; /* Button text color */
+    padding: 5px 10px; /* Button padding */
+    border: none; /* Remove button border */
+    cursor: pointer; /* Add pointer cursor */
+    margin-right: 5px; /* Add spacing between buttons */
+  }
+  
+  .action-buttons button:hover {
+    background-color: #0056b3; /* Hover background color */
+  }
+  
