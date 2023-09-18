@@ -1,1 +1,1 @@
-# ONLINE-School-Management-SYSTEM 🚌
+# Online-School-Management-SYSTEM 🚌
